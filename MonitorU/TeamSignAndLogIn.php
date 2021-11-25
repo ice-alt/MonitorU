@@ -23,7 +23,7 @@
 			<input type="submit" name="submit" class="button" value="Log in"><br>
 			
 			 <!--Link to signup page-->
-			<a href="http://localhost/TeamSignUp.php"><p class="signuplink">Sign up</p></a>
+			<a href="TeamSignUp.php"><p class="signuplink">Sign up</p></a>
 
 		</form>
 

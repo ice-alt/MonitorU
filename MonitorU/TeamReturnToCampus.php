@@ -22,7 +22,7 @@
 	</div>
 
 <!--Form to accept users ID-->
-<form action="http://localhost/TeamReturnToCampus.php" method="post">
+<form action="TeamReturnToCampus.php" method="post">
  		<label style="color: white; margin-left: 200px;">ID: </label> <input type="text" name="id" placeholder="ID"> <input type="submit" name="submit" class="submitbtnreturnform" value="Submit"><br><br><br>
 </form>
 

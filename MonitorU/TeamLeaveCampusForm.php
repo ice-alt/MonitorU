@@ -32,16 +32,16 @@
 		<p style="text-align: center">Please fill in the following details: </p><br>
 
 		<!--Form to accept users details-->
-		<form action="" method="post">
+		<form action="" method="post" name="f2" onsubmit="return Absent()">
 	  		<label class="campusformtext">ID: </label><input type="text" name="id" size="30" placeholder="ID" required/>
       		<label class="campusformtext2">Departure Time: </label><input type="time" name="departuretime" size="30" placeholder="Time" required/><br><br><br>
       		<label class="campusformtext">Departure Date: </label><input type="date" name="departuredate" size="30" placeholder="Date" required/>
      		<label class="campusformtext2">Destination: </label><input type="text" name="destination" size="30" placeholder="Destination" required/><br><br><br>
       		<label class="campusformphone">Phone number of a Companion: </label><input type="tel" name="tele2" size="30" placeholder="Phone number of a Companion" required/>
      		<label class="campusformdate">Expected return date: </label><input type="date" name="returndate" size="30" placeholder="Expected return date" required/><br><br><br>
-     	</form>
+     	
 
-     	<form action="" method="post" name="f2" onsubmit="return Absent()">
+     	
       		<label class="campusformtext3">Status (Type in "Absent"): </label><input type="text" name="status" size="30" placeholder="Status" required/><br><br><br>
     
     </div>

@@ -23,7 +23,7 @@
 
 
 <!--Form to accept ID and search for it-->
-<form action="http://localhost/TeamCampusLog.php" method="post">
+<form action="TeamCampusLog.php" method="post">
  		<label class="idcampuslog">ID: </label> <input type="text" name="id" placeholder="ID">  <input type="submit" name="submit" class="submitbtnreturnform" value="Search"><br><br><br>
  		<input type="submit" name="delete" class="deletepresent" value="Delete all 'Present'"><br><br>
  		
