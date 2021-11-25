@@ -7,6 +7,26 @@
 </head>
 	<body>
 
+
+<script>
+
+    //Function that checks if passwords match (between the 'Password' field and the 'Confirm Password' field)
+    function Absent(){
+        var userinput=document.f2.status.value;
+        
+
+        if(userinput==="Absent"){
+            return true;
+        }
+        else{
+            alert("Type in 'Absent'");
+            return false;
+        }
+
+    }
+</script>
+	
+
 	<div class="main2">
 		<br><br>
 		<p style="text-align: center">Please fill in the following details: </p><br>
@@ -19,6 +39,9 @@
      		<label class="campusformtext2">Destination: </label><input type="text" name="destination" size="30" placeholder="Destination" required/><br><br><br>
       		<label class="campusformphone">Phone number of a Companion: </label><input type="tel" name="tele2" size="30" placeholder="Phone number of a Companion" required/>
      		<label class="campusformdate">Expected return date: </label><input type="date" name="returndate" size="30" placeholder="Expected return date" required/><br><br><br>
+     	</form>
+
+     	<form action="" method="post" name="f2">
       		<label class="campusformtext3">Status (Type in "Absent"): </label><input type="text" name="status" size="30" placeholder="Status" required/><br><br><br>
     
     </div>

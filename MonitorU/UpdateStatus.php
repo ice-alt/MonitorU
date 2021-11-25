@@ -41,7 +41,6 @@
 		if($result1)
     {
 
-        echo "<script>alert('Update successful!')</script>";
         header("location:ConfirmReturn.php");
         
     }

@@ -54,8 +54,6 @@
    			//if statement to check if user details are in the database
    			if($rw['total'] > 0){
 
-   			//Displays message from the browser if details are in the database
-   			echo "<script>alert('username and password are correct')</script>";
 
    			//Redirects page
    			header("location: TeamHomepage.php");
@@ -64,7 +62,7 @@
 
    		else{
    			//Displays message from the browser if the details are not in the databse
-   			echo "<script>alert('username and password are incorrect')</script>";
+   			echo "<script>alert('ID or password is incorrect')</script>";
    		}
 
 
