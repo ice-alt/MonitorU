@@ -10,7 +10,7 @@
 
 <script>
 
-    //Function that checks if passwords match (between the 'Password' field and the 'Confirm Password' field)
+    //Function that checks user entered "Absent"
     function Absent(){
         var userinput=document.f2.status.value;
         
