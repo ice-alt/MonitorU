@@ -41,7 +41,7 @@
      		<label class="campusformdate">Expected return date: </label><input type="date" name="returndate" size="30" placeholder="Expected return date" required/><br><br><br>
      	</form>
 
-     	<form action="" method="post" name="f2">
+     	<form action="" method="post" name="f2" onsubmit="return Absent()">
       		<label class="campusformtext3">Status (Type in "Absent"): </label><input type="text" name="status" size="30" placeholder="Status" required/><br><br><br>
     
     </div>

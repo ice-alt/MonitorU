@@ -33,7 +33,7 @@
 
 
     <!--Form to accept sign up details from user-->
-	<form action="" method="post" name="f1">
+	<form action="" method="post" name="f1" onsubmit="return PasswordMatch()">
       <label class="usersignuptext">ID: </label><input type="text" name="id" size="47" placeholder="ID" required/><br><br>
       <label class="usersignuptext">First name: </label><input type="text" name="fname" size="36" placeholder="First Name" required/><br><br>
       <label class="usersignuptext">Last name: </label><input type="text" name="lname" size="36" placeholder="Last Name" required/><br><br>
